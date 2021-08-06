@@ -1,6 +1,4 @@
 * {
-    margin:0;
-    padding:0;
     color:white;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -8,14 +6,16 @@
 body{
     background-color: black;
 }
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #555555;
-    
+    background-color: #555555; 
+    height: 65px;
 }
+
 h1 {
     position: relative;
     right: -35px;
@@ -61,6 +61,7 @@ p {
 h2 {
     font-size: 40px;
     text-align: center;
+    margin: 20px;
 }
 
 #works{
@@ -96,6 +97,24 @@ h4 {
     margin-bottom: 10px;
 }
 
+footer {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #555555; 
+    position: absolute;
+    bottom: auto;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    
+}
 
 
 
