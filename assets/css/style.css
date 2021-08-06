@@ -1,29 +1,50 @@
 * {
     margin:0;
     padding:0;
-    color: white;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-body{
-    background-color: #8a2404;
-}
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: rgb(1, 1, 65);
-  }
+    background-color: rgb(124, 6, 6);
+    color: white;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
     list-style-type: none;
-  }
+}
+
 nav a{
     text-decoration: none;
+    color: white;
 }
+
+.container {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/space.jpg");
+    background-size: cover;
+    background-position: center;
+}
+  
+.quote {
+    position:relative;
+    top:15%;
+    left:10%;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 75%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+
 
 
 
