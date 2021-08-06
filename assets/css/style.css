@@ -1,0 +1,29 @@
+* {
+    margin:0;
+    padding:0;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body{
+    background-color: #8a2404;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(1, 1, 65);
+  }
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type: none;
+  }
+nav a{
+    text-decoration: none;
+}
+
+
+
