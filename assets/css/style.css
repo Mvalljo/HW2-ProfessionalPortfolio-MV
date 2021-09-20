@@ -133,18 +133,16 @@ footer {
     width: 100%;
     background-color: #555555; 
     position: absolute;
-    bottom: auto;
 }
 
 footer ul {
     display: flex;
     justify-content: space-around;
-    height: 50px;
+    margin-bottom: 20px;
 }
 
 footer a {
     text-decoration: none;
-    
 }
 
 @media screen and (max-width: 768px) {
@@ -158,11 +156,11 @@ footer a {
         height: max-content;
     }
 
-    nav li{
+    li{
         margin: 15px;
     }
 
-    nav ul {
+    ul {
         flex-direction: column;
         text-align: center;
     }
