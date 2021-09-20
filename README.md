@@ -1,4 +1,4 @@
 # OnlinePortfolio
 Description: Build a portfolio page.
 Website: https://mvalljo.github.io/OnlinePortfolio/
-![HW-2-Website-MV](https://user-images.githubusercontent.com/86633258/128580725-e09ae28e-a97d-4c08-b4ae-5c5f849a5a08.PNG)
+![screenshot-mvalljo github io-2021 09 20-17_52_07](https://user-images.githubusercontent.com/86633258/134086905-c749224e-1f44-43c8-8d68-ea58683d6c7c.png)
