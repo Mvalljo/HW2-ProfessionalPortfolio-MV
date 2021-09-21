@@ -3,10 +3,6 @@
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-html,body{
-    overflow-x: hidden;
-}
-
 body{
     background-color: black;
 }
@@ -102,26 +98,6 @@ h4 {
     background-color: purple;
     border: solid blue;
     margin-bottom: 10px;
-}
-.tooltip {
-    position: relative;
-    display: inline-block;
-}
-  
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 200px;
-    background-color: purple;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-}
-  
-.tooltip:hover .tooltiptext {
-    visibility: visible;
 }
 
 #p1{
