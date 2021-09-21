@@ -3,6 +3,10 @@
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 body{
     background-color: black;
 }
@@ -67,7 +71,6 @@ h2 {
 }
 
 .project{
-    width: 499px;
     height: 400px;
     margin: 10px auto;
 }
