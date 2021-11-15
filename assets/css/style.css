@@ -7,26 +7,11 @@ body{
     background-color: black;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color: #555555; 
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-    list-style-type: none;
-}
-
 a{
     text-decoration: none;
 }
 
-.container {
+.container-quote {
     height: fit-content;
     width: 100%;
     margin-bottom: 25px;
