@@ -118,56 +118,171 @@
             </a>
           </h4>
         </section>
-        <section class="project">
-          <a
-            href="https://mvalljo.github.io/Atmospheric-Conditions/"
-            target="_blank"
+        <div class="bd-example border border-primary border-5">
+          <div
+            id="carouselIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-pause="hover"
           >
-            <img
-              src="./assets/images/WeatherDashboard.png"
-              alt="Second project"
-            />
-          </a>
-          <h4>
-            <a
-              href="https://github.com/Mvalljo/Atmospheric-Conditions"
-              target="_blank"
-              class="tooltip"
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="./assets/images/Bookstack.png"
+                  class="d-block w-100"
+                  alt="Second project"
+                />
+                <div class="carousel-caption d-md-block">
+                  <h5
+                    class="
+                      text-light text-wrap
+                      mx-auto
+                      p-2
+                      border border-primary
+                    "
+                    style="width: fit-content; background-color: purple"
+                  >
+                    Bookstack
+                  </h5>
+                  <a
+                    href="https://bookstack6.herokuapp.com/"
+                    target="_blank"
+                    class="btn btn-primary stretched-link"
+                    style="background-color: purple"
+                  >
+                    Deployed Link
+                  </a>
+                  <a
+                    href="https://github.com/Mvalljo/BookStack"
+                    target="_blank"
+                    class="btn btn-primary stretched-link"
+                    style="background-color: purple"
+                  >
+                    Github Repo
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img
+                  src="./assets/images/TechnoBubble.png"
+                  class="d-block w-100"
+                  alt="Third project"
+                />
+                <div class="carousel-caption d-md-block">
+                  <h5
+                    class="
+                      text-light text-wrap
+                      mx-auto
+                      p-2
+                      border border-primary
+                    "
+                    style="width: fit-content; background-color: purple"
+                  >
+                    Techno Bubble
+                  </h5>
+                  <a
+                    href="https://intense-depths-27704.herokuapp.com/"
+                    target="_blank"
+                    class="btn btn-primary stretched-link"
+                    style="background-color: purple"
+                  >
+                    Deployed Link
+                  </a>
+                  <a
+                    href="https://github.com/Mvalljo/TechnoBabble"
+                    target="_blank"
+                    class="btn btn-primary stretched-link"
+                    style="background-color: purple"
+                  >
+                    Github Repo
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img
+                  src="./assets/images/WatherDashboard.png"
+                  class="d-block w-100"
+                  alt="Fourth project"
+                />
+                <div class="carousel-caption d-md-block">
+                  <h5
+                    class="
+                      text-light text-wrap
+                      mx-auto
+                      p-2
+                      border border-primary
+                    "
+                    style="width: fit-content; background-color: purple"
+                  >
+                    Weather Dashboard
+                  </h5>
+                  <a
+                    href="https://github.com/Mvalljo/Atmospheric-Conditions"
+                    target="_blank"
+                    class="btn btn-primary stretched-link"
+                    style="background-color: purple"
+                  >
+                    Deployed Link
+                  </a>
+                  <a
+                    href="https://mvalljo.github.io/Atmospheric-Conditions/"
+                    target="_blank"
+                    class="btn btn-primary stretched-link"
+                    style="background-color: purple"
+                  >
+                    Github Repo
+                  </a>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide="prev"
             >
-              Weather Dashboard<br />
-              Github Repo
-            </a>
-          </h4>
-        </section>
-        <section class="project">
-          <a href="https://mvalljo.github.io/WorkPlanner/" target="_blank">
-            <img src="./assets/images/WorkPlanner.png" alt="Third project" />
-          </a>
-          <h4>
-            <a
-              href="https://github.com/Mvalljo/WorkPlanner"
-              target="_blank"
-              class="tooltip"
+              <span
+                class="fa fa-chevron-left fa-4x text-primary"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide="next"
             >
-              Work Planner<br />
-              Github Repo
-            </a>
-          </h4>
-        </section>
-        <section class="project">
-          <a href="about:blank" target="_blank">
-            <img
-              src="https://via.placeholder.com/495x400"
-              alt="Fourth project"
-            />
-          </a>
-          <h4>
-            <a href="about:blank" target="_blank" class="tooltip">
-              project 4 <br />
-              Github Repo
-            </a>
-          </h4>
-        </section>
+              <span
+                class="fa fa-chevron-right fa-4x text-primary"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
       </div>
     </main>
 
