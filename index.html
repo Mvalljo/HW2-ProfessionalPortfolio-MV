@@ -64,24 +64,32 @@
         </div>
       </div>
     </nav>
-    <div class="container-quote">
-      <figure class="quote">
-        <blockquote>
+    <div
+      class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+      style="
+        background-image: url('./assets/images/space.jpg');
+        height: fit-content;
+        background-size: cover;
+      "
+    >
+      <blockquote class="blockquote text-center">
+        <p class="mb-0 mt-5">
           "I have one life and one chance to make it count for something. My
           faith demands that I do whatever I can, wherever I am, whenever I can,
           for as long as I can with whatever I have to try and make a
           difference."
-        </blockquote>
-        <figcaption>— Jimmy Carter</figcaption>
-      </figure>
+        </p>
+        <footer class="blockquote-footer mt-2 text-white">Jimmy Carter</footer>
+      </blockquote>
       <img
         src="./assets/images/avatar.png"
         alt="Headshot Picture"
-        class="center"
+        style="width: 150px"
       />
     </div>
+
     <main>
-      <h2 id="about">About Me</h2>
+      <h2 id="about" class="text-center">About Me</h2>
       <p>
         Currently obtaining a certificate in full stack web development from
         UTSA and have a Bachelor of Science in Mechanical Engineering from St
@@ -92,32 +100,45 @@
         professional, is to utilize my strengths to make a positive impact on an
         overall organization.
       </p>
-      <h2>Work</h2>
+      <h2 class="text-center">Work</h2>
 
       <div id="works">
         <section class="project first">
-          <a
-            href="https://marisolbsmith.github.io/team10forthewin/"
-            target="_blank"
-          >
-            <div class="scrollable">
-              <img
-                src="./assets/images/LowRiskVacay.png"
-                width="100%"
-                alt="First project"
-              />
-            </div>
-          </a>
-          <h4 id="p1">
+          <div class="scrollable">
+            <img
+              src="./assets/images/LowRiskVacay.png"
+              width="100%"
+              alt="First project"
+            />
+          </div>
+          <div class="text-center mt-2">
+            <h5
+              class="text-light text-wrap mx-auto p-2 border border-primary"
+              style="width: fit-content; background-color: purple"
+            >
+              Low Risk Vacay
+            </h5>
+            <a
+              href="https://marisolbsmith.github.io/team10forthewin/"
+              role="button"
+              target="_blank"
+              class="btn btn-primary"
+              style="background-color: purple"
+            >
+              Deployed Link
+            </a>
             <a
               href="https://github.com/marisolbsmith/team10forthewin"
+              role="button"
               target="_blank"
+              class="btn btn-primary"
+              style="background-color: purple"
             >
-              Low Risk Vacay <br />
               Github Repo
             </a>
-          </h4>
+          </div>
         </section>
+
         <div class="bd-example border border-primary border-5">
           <div
             id="carouselIndicators"
@@ -169,7 +190,7 @@
                   <a
                     href="https://bookstack6.herokuapp.com/"
                     target="_blank"
-                    class="btn btn-primary stretched-link"
+                    class="btn btn-primary"
                     style="background-color: purple"
                   >
                     Deployed Link
@@ -177,7 +198,7 @@
                   <a
                     href="https://github.com/Mvalljo/BookStack"
                     target="_blank"
-                    class="btn btn-primary stretched-link"
+                    class="btn btn-primary"
                     style="background-color: purple"
                   >
                     Github Repo
@@ -205,7 +226,7 @@
                   <a
                     href="https://intense-depths-27704.herokuapp.com/"
                     target="_blank"
-                    class="btn btn-primary stretched-link"
+                    class="btn btn-primary"
                     style="background-color: purple"
                   >
                     Deployed Link
@@ -213,7 +234,7 @@
                   <a
                     href="https://github.com/Mvalljo/TechnoBabble"
                     target="_blank"
-                    class="btn btn-primary stretched-link"
+                    class="btn btn-primary"
                     style="background-color: purple"
                   >
                     Github Repo
@@ -241,7 +262,7 @@
                   <a
                     href="https://github.com/Mvalljo/Atmospheric-Conditions"
                     target="_blank"
-                    class="btn btn-primary stretched-link"
+                    class="btn btn-primary"
                     style="background-color: purple"
                   >
                     Deployed Link
@@ -249,7 +270,7 @@
                   <a
                     href="https://mvalljo.github.io/Atmospheric-Conditions/"
                     target="_blank"
-                    class="btn btn-primary stretched-link"
+                    class="btn btn-primary"
                     style="background-color: purple"
                   >
                     Github Repo
@@ -286,9 +307,9 @@
       </div>
     </main>
 
-    <footer id="contact">
+    <footer id="contact" class="text-center" style="background-color: #555555">
       <h2>Contact Me</h2>
-      <ul>
+      <ul class="pb-3 pl-1">
         <li>
           <span class="fa fa-phone"></span>
           <a href="#">(870)899-4306</a>
@@ -303,9 +324,9 @@
         </li>
         <li>
           <span class="fa fa-linkedin-square"></span>
-          <a href="https://www.linkedin.com/in/maria-vallejo-8237a41a6/"
-            >Linkdln</a
-          >
+          <a href="https://www.linkedin.com/in/maria-vallejo-8237a41a6/">
+            Linkdln
+          </a>
         </li>
       </ul>
     </footer>

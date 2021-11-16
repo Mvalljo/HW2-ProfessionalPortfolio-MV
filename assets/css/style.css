@@ -7,51 +7,11 @@ body{
     background-color: black;
 }
 
-.container-quote {
-    height: fit-content;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/space.jpg");
-    background-size: cover;
-    background-position: center;
-}
-  
-.quote {
-    position:relative;
-    top:15%;
-    left:10%;
-    width: 75%; 
-    padding: 40px;
-    font-weight: bold;
-    font-size: x-large;
-}
-
-.center {
-    display: block;
-    margin:auto;
-    width: 150px;
-    padding-bottom: 30px;
-}
-
-p {
-    margin: 20px;
-    border: solid blue;
-}
-
-h2 {
-    font-size: 40px;
-    text-align: center;
-    margin: 20px;
-}
-
-#works{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.project.first{
-    width: 100%;
-    height: 600px;
+.bd-example {
+  margin: 50px auto;
+  width: fit-content;
+  height: fit-content;
+  display: block;
 }
 
 .scrollable {
@@ -63,83 +23,25 @@ h2 {
     margin-right: auto;
 }
 
-section img{
-    border: solid blue;
-    margin: auto;
-}
-
-h4 {
-    font-size:x-large;
-    position: relative;
-    top: -80px;
-    width: fit-content;
-    background-color: purple;
-    border: solid blue;
-    margin-bottom: 10px;
-}
-
-.bd-example {
-  margin: 50px auto;
-  width: fit-content;
-  height: fit-content;
-  display: block;
-}
-#p1{
-    left: 10%;
-}
-footer {
-    margin-top: 20px;
-    width: 100%;
-    background-color: #555555; 
-    position: absolute;
-}
-
 footer ul {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    padding-left: 0px;
 }
 
 footer a {
     text-decoration: none;
+    color: white;
 }
 
 @media screen and (max-width: 768px) {
-    
-    main,
-    header{
-      flex-direction: column;
-    }
-
-    header {
-        height: max-content;
-    }
-
-    li{
-        margin: 15px;
-    }
 
     ul {
         flex-direction: column;
-        text-align: center;
-    }
-
-    .quote{
-        width: auto;
-        left: 0%;
-    }
-
-    p {
-        margin: 0%;
     }
     
-    .project.first{
-        height: fit-content;
-        margin: 0px;
-    }
-
-    .project img{
-        max-width:100%;
+    li{
+        margin: 15px;
     }
 
 }
