@@ -1,4 +1,6 @@
 import React from "react";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 
 const styles = {
   footer: {
@@ -11,16 +13,14 @@ function Footer() {
     <footer id="contact" className="footer text-center" style={styles.footer}>
       <ul className="pb-3 pl-1">
         <li>
-          <span
-            className="fa fa-github"
-            href="https://github.com/Mvalljo"
-          ></span>
+          <a href="https://github.com/Mvalljo">
+            <BsGithub />
+          </a>
         </li>
         <li>
-          <span
-            className="fa fa-linkedin-square"
-            href="https://www.linkedin.com/in/maria-vallejo-8237a41a6/"
-          ></span>
+          <a href="https://www.linkedin.com/in/maria-vallejo-8237a41a6/">
+            <BsLinkedin/>
+          </a>
         </li>
       </ul>
     </footer>
