@@ -11,13 +11,16 @@ function Footer() {
     <footer id="contact" className="footer text-center" style={styles.footer}>
       <ul className="pb-3 pl-1">
         <li>
-          <span className="fa fa-github"></span>
-          <a href="https://github.com/Mvalljo">Github</a>
+          <span
+            className="fa fa-github"
+            href="https://github.com/Mvalljo"
+          ></span>
         </li>
         <li>
-          <span className="fa fa-linkedin-square"></span>
-          <a href="https://www.linkedin.com/in/maria-vallejo-8237a41a6/">
-          </a>
+          <span
+            className="fa fa-linkedin-square"
+            href="https://www.linkedin.com/in/maria-vallejo-8237a41a6/"
+          ></span>
         </li>
       </ul>
     </footer>

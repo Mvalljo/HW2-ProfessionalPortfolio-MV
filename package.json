@@ -2,7 +2,6 @@
   "name": "online-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Mvalljo.github.io/online-protfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -14,6 +13,7 @@
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.2"
   },
+  "homepage": "https://Mvalljo.github.io/online-portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
