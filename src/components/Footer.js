@@ -3,29 +3,23 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsStackOverflow } from "react-icons/bs";
 
-const styles = {
-  footer: {
-    backgroundColor: "#555555"
-  }
-};
-
 function Footer() {
   return (
-    <footer id="contact" className="footer text-center" style={styles.footer}>
+    <footer id="contact" className="footer text-center">
       <ul className="pb-3 pl-1">
         <li>
           <a href="https://github.com/Mvalljo">
-            <BsGithub />
+            <BsGithub fontSize="40px" />
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/maria-vallejo-8237a41a6/">
-            <BsLinkedin />
+            <BsLinkedin fontSize="40px" />
           </a>
         </li>
         <li>
           <a href="https://stackexchange.com/users/23686237/maria-vallejo">
-            <BsStackOverflow />
+            <BsStackOverflow fontSize="40px" />
           </a>
         </li>
       </ul>

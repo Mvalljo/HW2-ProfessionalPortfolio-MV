@@ -47,17 +47,16 @@ body {
 
 footer ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 0px;
   margin: 0px;
   list-style: none;
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #555555;
 }
 footer li {
-  margin-top: 20px;
+  margin: 20px;
 }
 
 footer a {

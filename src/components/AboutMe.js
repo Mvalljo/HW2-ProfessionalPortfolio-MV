@@ -24,11 +24,11 @@ function AboutMe() {
       </blockquote>
       <div className="row py-lg-5">
         <div
-          class="col-lg-6 col-md-8 mx-auto border border-primary "
+          className="col-lg-6 col-md-8 mx-auto border border-primary "
           style={styles.footer}
         >
           <h2 className="text-center">About Me</h2>
-          <p class="text-center m-3 p-2">
+          <p className="text-center m-3 p-2">
             Currently obtaining a certificate in full stack web development from
             UTSA and have a Bachelor of Science in Mechanical Engineering from
             St Mary's University and am looking to apply my skills and abilities
