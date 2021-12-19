@@ -28,6 +28,11 @@ function AboutMe() {
           style={styles.footer}
         >
           <h2 className="text-center">About Me</h2>
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/images/avatar.png`}
+            style={{ height: "150px"}}
+            alt="Headshot Pic"
+          />
           <p className="text-center m-3 p-2">
             Currently obtaining a certificate in full stack web development from
             UTSA and have a Bachelor of Science in Mechanical Engineering from
