@@ -39,7 +39,7 @@ body{
 
 footer ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 0px;
     margin: 0px;
     list-style: none;
@@ -55,16 +55,4 @@ footer li {
 footer a {
     text-decoration: none;
     color: white;
-}
-
-@media screen and (max-width: 768px) {
-
-    ul {
-        flex-direction: column;
-    }
-    
-    li{
-        margin: 15px;
-    }
-
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
+import { BsStackOverflow } from "react-icons/bs";
 
 const styles = {
   footer: {
@@ -19,7 +20,12 @@ function Footer() {
         </li>
         <li>
           <a href="https://www.linkedin.com/in/maria-vallejo-8237a41a6/">
-            <BsLinkedin/>
+            <BsLinkedin />
+          </a>
+        </li>
+        <li>
+          <a href="https://stackexchange.com/users/23686237/maria-vallejo">
+            <BsStackOverflow />
           </a>
         </li>
       </ul>
