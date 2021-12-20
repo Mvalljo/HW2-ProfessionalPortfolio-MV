@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route,Link } from "react-router-dom";
 import AboutMe from "./AboutMe";
 import Work from "./Work";
+import Contact from "./Contact";
 
 function Header() {
   return (
@@ -59,6 +60,7 @@ function Header() {
       <Routes>
         <Route path="/about" element={<AboutMe />}></Route>
         <Route path="/work" element={<Work />}></Route>
+        <Route path="/contact" element={<Contact/>}></Route>
         <Route path="*" element={<AboutMe />}></Route>
       </Routes>
     </header>
