@@ -1,4 +1,6 @@
 import React from "react";
+import { FiChevronRight } from "react-icons/fi";
+import { FiChevronLeft } from "react-icons/fi";
 
 function Work() {
   return (
@@ -286,10 +288,9 @@ function Work() {
             data-bs-target="#carouselIndicators"
             data-bs-slide="prev"
           >
-            <span
-              className="fa fa-chevron-left fa-4x text-primary"
-              aria-hidden="true"
-            ></span>
+            <span aria-hidden="true">
+              <FiChevronLeft fontSize="100px" />
+            </span>
             <span className="visually-hidden">Previous</span>
           </button>
           <button
@@ -298,10 +299,9 @@ function Work() {
             data-bs-target="#carouselIndicators"
             data-bs-slide="next"
           >
-            <span
-              className="fa fa-chevron-right fa-4x text-primary"
-              aria-hidden="true"
-            ></span>
+            <span aria-hidden="true">
+              <FiChevronRight fontSize="100px" />
+            </span>
             <span className="visually-hidden">Next</span>
           </button>
         </div>
