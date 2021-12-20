@@ -7,7 +7,7 @@ function Work() {
         <div className="scrollable">
           <img
             src={`${process.env.PUBLIC_URL}/assets/images/LowRiskVacay.png`}
-            style= {{width:"100%"}}
+            style={{ width: "100%" }}
             alt="First project"
           />
         </div>
@@ -176,6 +176,44 @@ function Work() {
                 </a>
                 <a
                   href="https://mvalljo.github.io/Atmospheric-Conditions/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                  style={{ backgroundColor: "purple" }}
+                >
+                  Github Repo
+                </a>
+              </div>
+            </div>
+            <div className="carousel-item" data-bs-interval="10000">
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/images/NoteTaker.png`}
+                className="d-block w-100"
+                alt="Fifth project"
+              />
+              <div className="carousel-caption d-md-block">
+                <h5
+                  className="
+                      text-light text-wrap
+                      mx-auto
+                      p-2
+                      border border-primary
+                    "
+                  style={{ width: "fit-content", backgroundColor: "purple" }}
+                >
+                  Note Taker
+                </h5>
+                <a
+                  href="https://enigmatic-island-21737.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                  style={{ backgroundColor: "purple" }}
+                >
+                  Deployed Link
+                </a>
+                <a
+                  href="https://github.com/Mvalljo/Note-Taker"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
