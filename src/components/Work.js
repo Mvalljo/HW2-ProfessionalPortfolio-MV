@@ -69,6 +69,24 @@ function Work() {
               data-bs-slide-to="2"
               aria-label="Slide 3"
             ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="10000">
@@ -214,6 +232,44 @@ function Work() {
                 </a>
                 <a
                   href="https://github.com/Mvalljo/Note-Taker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                  style={{ backgroundColor: "purple" }}
+                >
+                  Github Repo
+                </a>
+              </div>
+            </div>
+            <div className="carousel-item" data-bs-interval="10000">
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/images/EmployeeTracker.png`}
+                className="d-block w-100"
+                alt="Sixth project"
+              />
+              <div className="carousel-caption d-md-block">
+                <h5
+                  className="
+                      text-light text-wrap
+                      mx-auto
+                      p-2
+                      border border-primary
+                    "
+                  style={{ width: "fit-content", backgroundColor: "purple" }}
+                >
+                  Employee Tracker
+                </h5>
+                <a
+                  href="https://youtu.be/fHUsjcb6kVA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                  style={{ backgroundColor: "purple" }}
+                >
+                  Walkthrough of App
+                </a>
+                <a
+                  href="https://github.com/Mvalljo/Employee-Tracker"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
