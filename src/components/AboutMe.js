@@ -1,7 +1,7 @@
 import React from "react";
 
 const styles = {
-  footer: {
+  background: {
     backgroundColor: "#555555"
   }
 };
@@ -25,12 +25,12 @@ function AboutMe() {
       <div className="row py-lg-5">
         <div
           className="col-lg-6 col-md-8 mx-auto border border-primary "
-          style={styles.footer}
+          style={styles.background}
         >
           <h2 className="text-center">About Me</h2>
           <img
             src={`${process.env.PUBLIC_URL}/assets/images/avatar.png`}
-            style={{ height: "150px"}}
+            style={{ height: "150px" }}
             alt="Headshot Pic"
           />
           <p className="text-center m-3 p-2">
