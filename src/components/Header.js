@@ -1,11 +1,16 @@
 import React from "react";
+import { Routes, Route,Link } from "react-router-dom";
+import AboutMe from "./AboutMe";
+import Work from "./Work";
 
 function Header() {
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
-          <h1 className="navbar-brand fs-2"><strong>Maria Vallejo</strong></h1>
+          <h1 className="navbar-brand fs-2">
+            <strong>Maria Vallejo</strong>
+          </h1>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,24 +28,24 @@ function Header() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" href="#about">
+                <Link className="nav-link active" to="/about">
                   <strong>About Me</strong>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#works">
+                <Link className="nav-link active" to="/work">
                   <strong>Work</strong>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#contact">
+                <Link className="nav-link active" to="/contact">
                   <strong>Contact</strong>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link active"
-                  href="./assets/resume/Resume-MV.pdf"
+                  href={`${process.env.PUBLIC_URL}/assets/Resume-MV.pdf`}
                   download
                   target="blank"
                 >
@@ -51,6 +56,11 @@ function Header() {
           </div>
         </div>
       </nav>
+      <Routes>
+        <Route path="/about" element={<AboutMe />}></Route>
+        <Route path="/work" element={<Work />}></Route>
+        <Route path="*" element={<AboutMe />}></Route>
+      </Routes>
     </header>
   );
 }
