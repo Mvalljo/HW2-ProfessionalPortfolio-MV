@@ -34,7 +34,7 @@ function AboutMe() {
             alt="Headshot Pic"
           />
           <p className="text-center m-3 p-2">
-            Currently obtaining a certificate in full stack web development from
+            Obtained a certificate in full stack web development from
             UTSA and have a Bachelor of Science in Mechanical Engineering from
             St Mary's University and am looking to apply my skills and abilities
             to a challenging, growth-oriented position. My hands-on experience
