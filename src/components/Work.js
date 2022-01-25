@@ -47,10 +47,20 @@ function Work() {
                 />
                 <div className="card-body">
                   <h5 className="card-title">{project.title}</h5>
-                  <a href={project.deployedLink} className="btn btn-primary m-2">
+                  <a
+                    href={project.deployedLink}
+                    className="btn btn-primary m-2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Deployed Link
                   </a>
-                  <a href={project.githubRepo} className="btn btn-primary">
+                  <a
+                    href={project.githubRepo}
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Github Repo
                   </a>
                 </div>
