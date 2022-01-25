@@ -31,6 +31,12 @@ function Work() {
       img: "NoteTaker.png",
       deployedLink: "https://enigmatic-island-21737.herokuapp.com/",
       githubRepo: "https://github.com/Mvalljo/Note-Taker"
+    },
+    {
+      title: "Hike It",
+      img: "HikeIt.png",
+      deployedLink: "https://hikeit2022.herokuapp.com/",
+      githubRepo: "https://github.com/fons3517/project3"
     }
   ];
   return (
