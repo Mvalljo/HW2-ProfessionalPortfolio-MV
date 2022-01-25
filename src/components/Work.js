@@ -3,16 +3,16 @@ import React from "react";
 function Work() {
   const projects = [
     {
+      title: "Hike It",
+      img: "HikeIt.png",
+      deployedLink: "https://hikeit2022.herokuapp.com/",
+      githubRepo: "https://github.com/fons3517/project3"
+    },
+    {
       title: "Low Risk Vacay",
       img: "LowRiskVacay.png",
       deployedLink: "https://marisolbsmith.github.io/team10forthewin/",
       githubRepo: "https://github.com/marisolbsmith/team10forthewin"
-    },
-    {
-      title: "Bookstack",
-      img: "Bookstack.png",
-      deployedLink: "https://bookstack6.herokuapp.com/",
-      githubRepo: "https://github.com/Mvalljo/BookStack"
     },
     {
       title: "Techno Bubble",
@@ -33,10 +33,10 @@ function Work() {
       githubRepo: "https://github.com/Mvalljo/Note-Taker"
     },
     {
-      title: "Hike It",
-      img: "HikeIt.png",
-      deployedLink: "https://hikeit2022.herokuapp.com/",
-      githubRepo: "https://github.com/fons3517/project3"
+      title: "Bookstack",
+      img: "Bookstack.png",
+      deployedLink: "https://bookstack6.herokuapp.com/",
+      githubRepo: "https://github.com/Mvalljo/BookStack"
     }
   ];
   return (
