@@ -26,7 +26,7 @@ function AboutMe() {
             mvallejo14957@yahoo.com
           </p>
           <form
-            action="https://formsubmit.co/917f416764b6c9ebf859d22ab47c261f"
+            action="https://formsubmit.co/mvallejo14957@yahoo.com"
             method="POST"
           >
             <h2 className="text-2xl pt-6 pb-10 text-center font-medium">
