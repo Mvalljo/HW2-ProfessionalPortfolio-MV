@@ -48,7 +48,6 @@ function AboutMe() {
               <input
                 type="text"
                 name="email"
-                placeholder="Email Address"
                 className="mb-4 text-dark"
                 required
               />
