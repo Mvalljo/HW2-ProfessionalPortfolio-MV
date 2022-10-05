@@ -42,7 +42,7 @@ function AboutMe() {
           <h2 className="text-center">Contact</h2>
           <p className="text-left">
             <FiPhone fontSize="30px" className="m-3" />
-            (210)-630-2578
+            
           </p>
           <p className="text-left">
             <HiOutlineMail fontSize="30px" className="m-3" />
